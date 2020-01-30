@@ -1,5 +1,7 @@
 package com.nosorio.cars.models;
 
+import java.math.BigDecimal;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,7 +16,7 @@ public class AddOn {
 	private Long id;
 	
 	@NotNull
-	private String value;
+	private BigDecimal value;
 	@NotNull
 	private String name;
 	
@@ -24,10 +26,10 @@ public class AddOn {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getValue() {
+	public BigDecimal getValue() {
 		return value;
 	}
-	public void setValue(String value) {
+	public void setValue(BigDecimal value) {
 		this.value = value;
 	}
 	public String getName() {

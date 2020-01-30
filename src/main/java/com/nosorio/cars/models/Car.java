@@ -18,7 +18,6 @@ public class Car {
 	private BigDecimal value;
 	@NotNull
 	private String name;
-	@NotNull
 	private String addOns;
 	
 	public Long getId() {

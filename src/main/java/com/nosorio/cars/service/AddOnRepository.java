@@ -13,7 +13,7 @@ import com.nosorio.cars.models.AddOn;
 @Repository
 public interface AddOnRepository extends CrudRepository<AddOn, Long> {
 
-	@Query(value = "SELECT * FROM ADDON_VALUES WHERE CODE = :code", nativeQuery = true)
-	Map<String, BigDecimal> getValues(@Param("code") String code);
+	@Query(value = "SELECT * FROM ADD_ON WHERE NAME = :name", nativeQuery = true)
+	Map<String, BigDecimal> getValues(@Param("name") String name);
 
 }

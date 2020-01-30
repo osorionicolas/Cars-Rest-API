@@ -12,6 +12,6 @@ import com.nosorio.cars.models.Car;
 
 @Repository
 public interface CarRepository extends CrudRepository<Car, Long> {
-	@Query(value = "SELECT * FROM CAR_VALUES WHERE NAME = :name", nativeQuery = true)
+	@Query(value = "SELECT * FROM CAR WHERE NAME = :name", nativeQuery = true)
 	Map<String, BigDecimal> getValues(@Param("name") String name);
 }
