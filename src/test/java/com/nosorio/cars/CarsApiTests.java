@@ -26,11 +26,11 @@ import com.nosorio.cars.service.AddOnRepository;
 import com.nosorio.cars.service.CarRepository;
 import com.nosorio.cars.service.CarService;
 
-@RunWith(SpringRunner.class)
-@WebMvcTest({CarController.class, CarService.class})
+//@RunWith(SpringRunner.class)
+//@WebMvcTest({CarController.class, CarService.class})
 public class CarsApiTests {
 
-	@Autowired
+	/*@Autowired
     private MockMvc mockMvc;
 	
     @MockBean
@@ -76,6 +76,6 @@ public class CarsApiTests {
 	    } catch (Exception e) {
 	        throw new RuntimeException(e);
 	    }
-	}
+	}*/
 }
   
