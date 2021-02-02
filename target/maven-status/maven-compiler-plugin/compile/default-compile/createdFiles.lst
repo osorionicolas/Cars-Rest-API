@@ -1,0 +1,11 @@
+com\nosorio\cars\service\CarService$1.class
+com\nosorio\cars\config\SwaggerConfig.class
+com\nosorio\cars\Application.class
+com\nosorio\cars\models\Car.class
+com\nosorio\cars\dtos\CarDto.class
+com\nosorio\cars\controllers\CarController.class
+com\nosorio\cars\config\SecurityConfig.class
+com\nosorio\cars\service\CarService.class
+com\nosorio\cars\models\AddOn.class
+com\nosorio\cars\service\AddOnRepository.class
+com\nosorio\cars\service\CarRepository.class
