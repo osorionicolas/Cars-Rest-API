@@ -4,7 +4,7 @@
 
 	<groupId>com.identicum</groupId>
 	<artifactId>cars-rest-api</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<packaging>war</packaging>
 
 	<parent>
@@ -77,7 +77,7 @@
 	
 	<scm>
 		<developerConnection>scm:git:https://github.com/osorionicolas/cars-api</developerConnection>
-		<tag>HEAD</tag>
+		<tag>cars-rest-api-0.1.2</tag>
 	</scm>
 	
 	<distributionManagement>
