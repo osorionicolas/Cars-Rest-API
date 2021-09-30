@@ -15,7 +15,7 @@ jobs:
           java-version: 1.8
       - name: Configure Git user
         run: |
-          git config user.email "osorionicolas@gmail.com"
+          git config user.email "osorionicolas95@gmail.com"
           git config user.name "osorionicolas"
       - name: Create release
         run: mvn -B clean release:prepare release:perform
